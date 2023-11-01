@@ -13,17 +13,17 @@ O próximo passo é garantir que você tenha o PIP (Python Package Installer) in
 
 ### Como rodar o projeto?
 
-cd Pratica_TDD_1/
-virtualenv venv
-cd venv
-cd scripts
-activate.bat
-cd ..
-cd ..
-pip install -r requirements.txt
-cd biblioteca/
-python manage.py migrate
-python manage.py test
-coverage run --source='.' manage.py test 
-coverage html
-python manage.py runserver
+cd Pratica_TDD_1/  
+virtualenv venv  
+cd venv  
+cd scripts  
+activate.bat  
+cd ..  
+cd ..  
+pip install -r requirements.txt  
+cd biblioteca/  
+python manage.py migrate  
+python manage.py test  
+coverage run --source='.' manage.py test   
+coverage html  
+python manage.py runserver  
